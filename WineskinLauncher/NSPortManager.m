@@ -9,6 +9,8 @@
 #import "NSPortManager.h"
 
 #import <ObjectiveC_Extension/ObjectiveC_Extension.h>
+#import <ObjectiveC_Extension/NSMutableArray+Extension.h>
+#import <ObjectiveC_Extension/NSArray+Extension.h>
 
 #import "NSExeSelection.h"
 #import "NSPathUtilities.h"

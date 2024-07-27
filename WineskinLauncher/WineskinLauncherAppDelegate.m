@@ -14,6 +14,8 @@
 #import "NSPortDataLoader.h"
 #import "WineskinLauncher_Prefix.pch"
 
+#import <ObjectiveC_Extension/VMMVideoCardManager.h>
+
 @implementation WineskinLauncherAppDelegate
 
 static NSPortManager* portManager;

@@ -232,9 +232,9 @@
 -(IBAction)showOrHideXQuartzEngines:(NSButton*)sender {
     [installedEngines reloadData];
     
-    if (!sender.state && !self.isXQuartzInstalled) {
+    /*if (!sender.state && !self.isXQuartzInstalled) {
         [NSAlert showAlertOfType:NSAlertTypeWarning withMessage:@"You need to install XQuartz to use XQuartz-only compatible engines. You can find it here:\n\nhttps://www.xquartz.org"];
-    }
+    }*/
 }
 
 - (IBAction)createNewBlankWrapperButtonPressed:(id)sender

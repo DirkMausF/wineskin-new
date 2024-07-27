@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		256AC3DA0F4B6AC300CF3369 /* Wineskin_WineryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Wineskin_WineryAppDelegate.m */; };
 		4E45372020E7DA16005D794E /* NSWineskinEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E45371F20E7DA16005D794E /* NSWineskinEngine.m */; };
 		4E45373F20E7DC98005D794E /* ObjectiveC_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E45373920E7DC52005D794E /* ObjectiveC_Extension.framework */; };
+		8307478E2C55350000439F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8307478D2C55350000439F5E /* CoreGraphics.framework */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -52,6 +53,7 @@
 		4E45371E20E7DA16005D794E /* NSWineskinEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSWineskinEngine.h; sourceTree = "<group>"; };
 		4E45371F20E7DA16005D794E /* NSWineskinEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSWineskinEngine.m; sourceTree = "<group>"; };
 		4E45373320E7DC52005D794E /* ObjectiveC_Extension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveC_Extension.xcodeproj; path = ../Carthage/Checkouts/ObjectiveC_Extension/ObjectiveC_Extension.xcodeproj; sourceTree = "<group>"; };
+		8307478D2C55350000439F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Wineskin_Winery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Wineskin_Winery-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Wineskin Winery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wineskin Winery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169784C20FAF1CB00B2EE72 /* cabextract */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cabextract; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8307478E2C55350000439F5E /* CoreGraphics.framework in Frameworks */,
 				4E45373F20E7DC98005D794E /* ObjectiveC_Extension.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 			);
@@ -153,6 +156,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8307478D2C55350000439F5E /* CoreGraphics.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -198,7 +202,7 @@
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Wineskin Winery" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -294,9 +298,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TSN7J5A727;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -304,10 +310,11 @@
 				GCC_PREFIX_HEADER = Wineskin_Winery_Prefix.pch;
 				INFOPLIST_FILE = "Wineskin_Winery-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.urgesoftware.wineskin.wineskinwinery;
 				PRODUCT_NAME = "Wineskin Winery";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -317,15 +324,17 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TSN7J5A727;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Wineskin_Winery_Prefix.pch;
 				INFOPLIST_FILE = "Wineskin_Winery-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.urgesoftware.wineskin.wineskinwinery;
 				PRODUCT_NAME = "Wineskin Winery";
 				PROVISIONING_PROFILE = "";
