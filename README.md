@@ -31,8 +31,8 @@ Wineskin relies on [WINE](http://www.winehq.org/) ("WINE Is Not an Emulator") un
 Clone the repository and build the dependencies:
 
 ```bash
-$ git clone https://github.com/vitor251093/wineskin.git
-$ cd wineskin/
+$ https://github.com/DirkMausF/wineskin-new/
+$ cd wineskin_new/
 $ carthage update
 ```
 
@@ -50,38 +50,6 @@ $ xcodebuild -workspace Wineskin.xcworkspace -scheme "Wineskin Winery" build
 $ xcodebuild -workspace Wineskin.xcworkspace -scheme WineskinLauncher build
 ```
 
-## Changes from the original project
-
-As you may have already noticed, this is not the [original Wineskin repository](https://sourceforge.net/p/wineskin/code/ci/master/tree/).
-This repository counts with changes to make Wineskin more stable and its source easier to maintain.
-Considering this, lots of changes were made in WineskinApp and WineskinLauncher, and now both of them use [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension) and some new classes to perform most of their tasks. 
-
-### Changes in the Wineskin App (WineskinApp)
-
-- The Resolution property in Info.plist should never get corrupted (*(null)x24sleep0*);
-- The *Auto-detect GPU* feature should never cause malfunction in the port;
-- The *Auto-detect GPU* feature should have a much bigger accuracy and detect the memory size of integrated video cards as well;
-- Enabling *Mac Driver* and *Decorate window* checkboxes should not corrupt the wrapper registry;
-- The *Retina Mode* can be enabled from the Screen Options window;
-- *Kill Wineskin Processes* should kill ALL Wineskin processes.
-- Icons can be extracted directly from exe files;
-- Images (not .icns files) should also be accepted has wrapper icons;
-- LNK files should be able to be selected as a port's run path, so Wineskin can extract the path and flags from it;
-- Winetricks installation can be silent (with no windows) so it's much faster;
-- The first *Advanced* tab (*Configuration*) should be much more simple in the first section:
-    - The *Windows EXE* should use Wineskin syntax, including the drive and the flags, (eg. *"C:/Program Files/temp.exe" --run*) instead of using a macOS reference path (eg. */Program Files/temp.exe*) and the flag apart (eg. *--run*).
-
-### Changes in the Master Wrapper (WineskinLauncher)
-
-- Many fixes when dealing with newest engines.
-- WineskinX11 dropped.
-- Closes processes XQuartz on exit
-- Can use XQuartz installed via macports
-
-### Roadmap of desired changes in the Master Wrapper (WineskinLauncher)
-
-- A different Master Wrapper for macOS 10.6 and 10.7;
-
 ## Licensing
 
 The license is kept the same as the original material as LGPL 2.1.
@@ -89,5 +57,8 @@ You can find more details in the [LICENSE](LICENSE) file.
 
 ## Credits
 
-Special credits for this version go to doh123, for creating the original Wineskin
-[[website](http://wineskin.urgesoftware.com/)] [[code](https://sourceforge.net/projects/wineskin/)].
+[[Original website, offline](http://wineskin.urgesoftware.com/)] 
+[[Wineskin original code](https://sourceforge.net/projects/wineskin/)].
+[Unoffical_Wineskin](https://github.com/vitor251093/wineskin/commits/Unoffical_Wineskin/)
+[The-Wineskin-Project](https://github.com/The-Wineskin-Project/wineskin-source/)
+[Gcenx/WineskinServer](https://github.com/Gcenx/WineskinServer/).
