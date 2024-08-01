@@ -1,5 +1,9 @@
+
+![image](wineskin.png {width=400px height=400px})
+
+
 # Wineskin New
-![](wineskin.png)
+
 **Wineskin New** is a refubished version of a user-friendly tool used to make ports of Microsoft Windows software to Apple's macOS.
 
 Originally developed by urgesoftware.com, the original project is not maintained anymore. So we decided to reanimate it.
