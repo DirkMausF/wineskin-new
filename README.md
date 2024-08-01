@@ -1,5 +1,5 @@
 
-![image](wineskin.png {width=400px height=400px})
+![image](wineskin.png)
 
 
 # Wineskin New
