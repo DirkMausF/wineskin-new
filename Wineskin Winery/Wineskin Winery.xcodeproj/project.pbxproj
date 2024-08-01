@@ -12,6 +12,7 @@
 		4E45372020E7DA16005D794E /* NSWineskinEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E45371F20E7DA16005D794E /* NSWineskinEngine.m */; };
 		4E45373F20E7DC98005D794E /* ObjectiveC_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E45373920E7DC52005D794E /* ObjectiveC_Extension.framework */; };
 		8307478E2C55350000439F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8307478D2C55350000439F5E /* CoreGraphics.framework */; };
+		838F6B772C5B5F7F0081BBC0 /* wineskin.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F6B742C5B5F7F0081BBC0 /* wineskin.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -54,6 +55,7 @@
 		4E45371F20E7DA16005D794E /* NSWineskinEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSWineskinEngine.m; sourceTree = "<group>"; };
 		4E45373320E7DC52005D794E /* ObjectiveC_Extension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectiveC_Extension.xcodeproj; path = ../Carthage/Checkouts/ObjectiveC_Extension/ObjectiveC_Extension.xcodeproj; sourceTree = "<group>"; };
 		8307478D2C55350000439F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		838F6B742C5B5F7F0081BBC0 /* wineskin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wineskin.png; path = ../wineskin.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Wineskin_Winery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Wineskin_Winery-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Wineskin Winery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wineskin Winery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A169784C20FAF1CB00B2EE72 /* cabextract */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cabextract; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				838F6B742C5B5F7F0081BBC0 /* wineskin.png */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				A89E94A5153EE960006F38DB /* WineskinBanner.jpg */,
 				A8A76BB014E46AB700F2C8D0 /* Winery.icns */,
@@ -255,6 +258,7 @@
 				A8A76BB114E46AB700F2C8D0 /* Winery.icns in Resources */,
 				A89E94A6153EE960006F38DB /* WineskinBanner.jpg in Resources */,
 				A169784D20FAF1CB00B2EE72 /* cabextract in Resources */,
+				838F6B772C5B5F7F0081BBC0 /* wineskin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
