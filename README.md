@@ -1,7 +1,7 @@
 
 # Wineskin New
 
-<a href="url"><img src="https://github.com/DirkMausF/wineskin.png" align="center" height="250" width="250" ></a>
+<a href="url"><img src="https://github.com/DirkMausF/wineskin_new/wineskin.png" align="center" height="250" width="250" ></a>
 
 **Wineskin New** is a refubished version of a user-friendly tool used to make ports of Microsoft Windows software to Apple's macOS.
 
