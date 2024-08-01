@@ -57,8 +57,12 @@ You can find more details in the [LICENSE](LICENSE) file.
 
 ## Credits
 
-[[Original website, offline](http://wineskin.urgesoftware.com/)] 
-[[Wineskin original code](https://sourceforge.net/projects/wineskin/)].
+[Original website, offline](http://wineskin.urgesoftware.com/)
+ 
+[Wineskin original code](https://sourceforge.net/projects/wineskin/)
+
 [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/commits/Unoffical_Wineskin/)
+
 [The-Wineskin-Project](https://github.com/The-Wineskin-Project/wineskin-source/)
-[Gcenx/WineskinServer](https://github.com/Gcenx/WineskinServer/).
+
+[Gcenx/WineskinServer](https://github.com/Gcenx/WineskinServer/)
