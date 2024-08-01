@@ -1,10 +1,15 @@
-# Wineskin
+# Wineskin New
+![](wineskin.png)
+**Wineskin New** is a refubished version of a user-friendly tool used to make ports of Microsoft Windows software to Apple's macOS.
 
-**Wineskin** is a user-friendly tool used to make ports of Microsoft Windows software to Apple's macOS/Mac OS X.
+Originally developed by urgesoftware.com, the original project is not maintained anymore. So we decided to reanimate it.
+
+This project mainly consists of source from [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/commits/Unoffical_Wineskin/), [The-Wineskin-Project](https://github.com/The-Wineskin-Project/wineskin-source/) and [Gcenx/WineskinServer](https://github.com/Gcenx/WineskinServer/).
+
+**You are welcome to contribute, making Wineskin a better solution! ;)**
+
 
 ## How Does It Work?
-
-As described in the [original Wineskin's website](http://wineskin.urgesoftware.com/):
 
 > The ports are in the form of normal macOS application bundle wrappers.
 > It works like a wrapper around the Windows software, and you can share just the wrappers if you choose.
@@ -20,12 +25,6 @@ Wineskin relies on [WINE](http://www.winehq.org/) ("WINE Is Not an Emulator") un
 > and allowing you to cleanly integrate Windows applications into your desktop.
 
 ## Quick Start
-
-Install [Carthage](https://github.com/Carthage/Carthage) via [Homebrew](https://brew.sh/) to manage the build dependencies:
-
-```bash
-$ brew install carthage
-```
 
 Clone the repository and build the dependencies:
 
